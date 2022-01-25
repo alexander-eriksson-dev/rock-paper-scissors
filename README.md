@@ -4,8 +4,6 @@ Made for the project "Rock Paper Scissors" in the foundations of [The Odin Proje
 
 ## This is
 
-✅ A simple rock, paper, scissors game that can be played from the browsers dev console
+✅ A webpage containing a simple rock, paper, scissors game
 
 ✅ Built using knowledge from the previous lessons
-
-❌ A GUI game as of yet
