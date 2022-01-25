@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: #111111;
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(228, 228, 228);
+}
+
+h1 {
+    color: white;
+    font-size: 54px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    display: flex;
+    margin: 100px auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.buttons {
+    display: flex;
+    max-width: 1080px;
+    justify-content: center;
+    gap: 10px;
+}
+
+#rockBtn, #paperBtn, #scissorsBtn, #playAgainBtn {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 20px 34px;
+    text-align: center;
+    font-size: 27px;
+    border-radius: 10px;
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+}
+
+#rockBtn:hover, #paperBtn:hover, #scissorsBtn:hover, #playAgainBtn:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+#playAgainBtn {
+    display: none;
+}
+
+#results {
+    margin: 40px;
+    font-size: 27px;
+    color: white;
+    visibility: hidden;
+}
+
+#score {
+    font-size: 22px;
+    color: white;
+    visibility: hidden;
+}
+
+.footer {
+    padding: 1em;
+    margin: 0 auto;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
